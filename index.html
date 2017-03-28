@@ -1,0 +1,52 @@
+<html>
+<head>
+
+<script type="text/javascript" src="script.js"></script>
+<link href="style.css" rel="stylesheet" type="text/css">
+
+
+<script>
+function toggleSection(sectionID) {
+    var sa = new Array('home','services','portfolio','contact');
+    for (s in sa) {
+        document.getElementById(sa[s]).style.display = 'none';
+    }
+   var myTarget = document.getElementById(sectionID);
+   myTarget.style.display = 'block';
+}
+</script>
+</head>
+  
+<body>
+<div align="right" id="pageAudio">
+  <!-- Music -->
+  
+  <button id="playpausebtn"></button>
+  <button id="mutebtn"></button>
+  
+  </div>
+
+  <div id="pageHeader">
+   <h1 style="display:inline;">Site Logo</h1><br/><h3>You can change tabs and the music will continue to play</h3>
+  <p style="display:inline;">
+  <a href="#" onclick="return false" onmousedown="javascript:toggleSection('home');">Home</a> &nbsp; &nbsp;
+  <a href="#" onclick="return false" onmousedown="javascript:toggleSection('services');">Services</a> &nbsp; &nbsp; 
+  <a href="#" onclick="return false" onmousedown="javascript:toggleSection('portfolio');">Portfolio</a> &nbsp; &nbsp; 
+  <a href="#" onclick="return false" onmousedown="javascript:toggleSection('contact');">Contact</a></p>
+</div>
+<div id="pageBody">
+  <div id="home" class="section" style="display:block;">Home Page Content Goes Here<br></br>You can click fromt he topright corner play/pause || sound/mute</div>
+  <div id="services" class="section">Services Page Content Goes Here <br></br>You can click fromt he topright corner play/pause || sound/mute</div>
+  <div id="portfolio" class="section">Portfolio Page Content Goes Here <br></br>You can click fromt he topright corner play/pause || sound/mute</div>
+  <div id="contact" class="section">Contact Page Content Goes Here <br></br>You can click fromt he topright corner play/pause || sound/mute</div>
+</div>
+<div id="pageFooter">
+  
+<div id="footer">
+    <h5><a href="http://www.eleftheriabatsou.com" target="_blank">Eleftheria Batsou</a> | <a href="http://codepen.io/EleftheriaBatsou" target="_blank">Projects</a></h5>
+  </div> <!-- end footer -->  
+  
+  
+</div>
+</body>
+</html>

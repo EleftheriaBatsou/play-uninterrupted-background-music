@@ -1,0 +1,63 @@
+
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+  width:100%;
+  height: 100%;
+}
+#pageAudio{
+	width:90%; margin:auto; padding:10px;
+}
+#pageHeader {
+	width:90%; margin:auto; background-color: #d09693; padding:10px;
+}
+#pageBody {
+	width:90%; margin:auto; background-color:#FFF; padding:10px;
+}
+#pageFooter {
+	width:90%; margin:auto; background-color: #d09693; padding:10px;
+}
+.section{
+        display: none;
+	padding:10px;
+	font-size:18px; 
+	height:200px;
+}
+
+/* new code */
+
+body{ 
+   background-image: linear-gradient(to top, #c71d6f 0%, #d09693 100%);
+  background-repeat: no-repeat;
+ 
+   background-size: contain;
+   background-attachment: fixed; 
+   color: #c71d6f;
+}
+
+
+button{ border:none; cursor:pointer; outline:none; }
+
+button#playpausebtn{	background:url(https://image.flaticon.com/icons/svg/189/189889.svg) no-repeat;
+	width:30px;
+	height:30px;
+ 
+}
+
+button#mutebtn{	background:url(https://image.flaticon.com/icons/svg/204/204287.svg) no-repeat;
+	width:30px;
+	height:30px;
+}
+
+
+a:link{ color: #000; }
+a:hover{ background: #fff; }
+a:visited{ color: #000; }
+a:active{ background: #EEFFA8; }
+
+#footer {color: #000}
+#footer a:link{ color: #000; }
+#footer a:hover{ background: #fff; }
+#footer a:visited{ color: #000; }
+#footer a:active{ background: #EEFFA8; }
+
